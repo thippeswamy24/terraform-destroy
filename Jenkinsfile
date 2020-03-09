@@ -17,3 +17,5 @@ pipeline {
                  sh 'sudo /home/ec2-user/terraform destroy --auto-approve /home/ec2-user/newfolder'
             }
         }
+    }
+}
